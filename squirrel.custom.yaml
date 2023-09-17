@@ -1,0 +1,26 @@
+patch:
+  style/inline_preedit: false
+  style/color_scheme: nocturne
+  preset_color_schemes:
+    nocturne:
+      name: "夜景"
+      author: "scientificworld"
+      horizontal: true
+      candidate_format: "%c. %@ "
+      border_height: 6
+      border_width: 6
+      corner_radius: 5
+      font_face: "PingFangSC"
+      font_point: 16
+      label_font_point: 12
+      back_color: 0x000000
+      text_color: 0xFFFFFF
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0x000000
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x000000
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFBF00
+      candidate_text_color: 0xE16941
+      label_color: 0xE16941
+      comment_text_color: 0xFFFFFF

@@ -1,5 +1,8 @@
 patch:
+  __include: easy_en:/patch
   translator/dictionary: my_clover
+  easy_en/enable_sentence: false
+  ascii_composer/switch_key/Caps_Lock: commit_code
   key_binder/bindings:
     - { when: always, accept: Shift+space, toggle: noop }
   engine/translators:
@@ -59,3 +62,4 @@ patch:
     - derive/([ei])n$/$1ng/ # en => eng, in => ing
     - derive/([ei])ng$/$1n/ # eng => en, ing => in
     - derive/^([nl])v/$1u/ # nu, lu => nv, lv
+    - derive/an$/na/

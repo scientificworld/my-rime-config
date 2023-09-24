@@ -2,6 +2,7 @@ patch:
   schema_list:
     - schema: clover
     - schema: japanese
+    # - schema: double_pinyin_flypy
   switcher/hotkeys:
     - Alt+space
   ascii_composer/switch_key/Shift_L: commit_code

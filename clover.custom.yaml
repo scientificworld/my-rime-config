@@ -63,4 +63,3 @@ patch:
     - derive/([ei])ng$/$1n/ # eng => en, ing => in
     - derive/^([nl])v/$1u/ # nu, lu => nv, lv
     - derive/an(g?)$/na$1/ # (xi)na, nag => an, ang
-    - derive/^([^uiv])([uiv])/$2$1/ # ix => xi, uy => yu, etc.

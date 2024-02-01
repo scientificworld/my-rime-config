@@ -2,7 +2,7 @@ patch:
   schema_list:
     - schema: clover
     - schema: japanese
-    # - schema: double_pinyin_flypy
+    - schema: double_pinyin_flypy
   switcher/hotkeys:
     - Alt+space
   key_binder/bindings:
